@@ -1,12 +1,12 @@
 
 import Image from 'next/image';
 import React from 'react';
-import Navbar from "@/app/components/SharedComponents/Navbar"
-import Header2 from '@/app/components/SharedComponents/Header2';
+import Navbar from "@/app/Components/SharedComponents/Navbar"
+import Header2 from '@/app/Components/SharedComponents/Header2';
 import Footer from "@/app/components/SharedComponents/Footer"
-import LastBlogs from '@/app/components/SharedComponents/LastBlogs';
-import SmallBlogs from '@/app/components/SharedComponents/SmallBlogs';
-import FreeDelieveryComponents from '@/app/components/SharedComponents/FreeDelieveryComponents';
+import LastBlogs from '@/app/Components/SharedComponents/SmallBlogs';
+import SmallBlogs from "@/app/Components/SharedComponents/SmallBlogs";
+import FreeDelieveryComponents from '@/app/Components/SharedComponents/FreeDelieveryComponents';
 
 const Blogg = () => {
   return (
@@ -15,21 +15,30 @@ const Blogg = () => {
       <Header2 heading="Blog" text="blog" />
       <div className='lg:flex md:px-16  lg:px-32 py-2  md:py-6 lg:py-16 px-2 space-x-16    '>
         <div className='space-y-7'>
-          <LastBlogs
-            image="/blog.png"
-            heading="Going all-in with millennial design"
-            paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum"
-          />
-          <LastBlogs
-            image="/blog2.png"
-            heading="Exploring new way of decorating"
-            paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum"
-          />
-          <LastBlogs
-            image="/blog3.png"
-            heading="Handmade pieces thatlook time to make"
-            paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum"
-          />
+  
+<LastBlogs
+  image="/blog.png"
+  heading="Handmade pieces that look time to make" />
+ <p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum"
+ </p>
+
+<LastBlogs
+ image="/blog3.png"
+ heading="Handmade pieces that look time to make"  /> 
+ <p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
+</p>
+
+
+
+<LastBlogs
+  image="/blog3.png"
+  heading="Handmade pieces that look time to make"   />
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
+</p>
+
         </div>
         <div className=' w-1/3 '>
           <div>

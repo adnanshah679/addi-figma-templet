@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGreaterThan } from '@fortawesome/free-solid-svg-icons';
 
+
 const Header2 = (props:{heading:string, text:string}) => {
   return (
     <>
