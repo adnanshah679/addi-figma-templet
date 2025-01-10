@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import Navbar from "@/app/Components/SharedComponents/Navbar"
 import Header2 from '@/app/Components/SharedComponents/Header2';
-import Footer from "@/app/components/SharedComponents/Footer"
+import Footer from "@/app/Components/SharedComponents/Footer";
 import LastBlogs from '@/app/Components/SharedComponents/SmallBlogs';
 import SmallBlogs from "@/app/Components/SharedComponents/SmallBlogs";
 import FreeDelieveryComponents from '@/app/Components/SharedComponents/FreeDelieveryComponents';

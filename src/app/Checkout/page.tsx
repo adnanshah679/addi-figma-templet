@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from "@/app/Components/SharedComponents/Navbar"
 import Header2 from "@/app/Components/SharedComponents/Header2"
 import FreeDelieveryComponents from '@/app/Components/SharedComponents/FreeDelieveryComponents'
-import Footer from '@/app/components/SharedComponents/Footer'
+import Footer from "@/app/Components/SharedComponents/Footer"
 const page = () => {
     return (
 
