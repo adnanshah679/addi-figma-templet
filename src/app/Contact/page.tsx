@@ -1,10 +1,10 @@
 import { faClock, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import React from 'react'
-import Navbar from "@/app/components/SharedComponents/Navbar"
-import Header2 from '@/app/components/SharedComponents/Header2'
+import Navbar from "@/app/Components/SharedComponents/Navbar"
+import Header2 from '@/app/Components/SharedComponents/Header2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Footer from "@/app/components/SharedComponents/Footer"
-import FreeDelieveryComponents from '@/app/components/SharedComponents/FreeDelieveryComponents';
+import FreeDelieveryComponents from '@/app/Components/SharedComponents/FreeDelieveryComponents';
 
 const Contact = () => {
     return (

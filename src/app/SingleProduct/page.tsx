@@ -1,11 +1,11 @@
 import { faGreaterThan } from '@fortawesome/free-solid-svg-icons';
-import Navbar from "@/app/components/SharedComponents/Navbar"
+import Navbar from "@/app/Components/SharedComponents/Navbar"
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import FirstSection from '../components/singleProductData/FirstSection';
-import SecondSection from '../components/singleProductData/SecondSection';
-import ThirdSection from '../components/singleProductData/ThirdSection';
-import Footer from '../components/SharedComponents/Footer';
+import FirstSection from '@/app/Components/SingleProductData/FirstSection';
+import SecondSection from "@/app/Components/SingleProductData/SecondSection";
+import ThirdSection from '@/app/Components/SingleProductData/ThirdSection';
+import Footer from '@/app/components/SharedComponents/Footer';
 
 const SingleProduct = () => {
   return (

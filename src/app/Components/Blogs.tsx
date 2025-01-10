@@ -1,5 +1,5 @@
 import React from 'react'
-import ComponentsForBlogs from './SharedComponents/ComponentsForBlogs'
+import ComponentsForBlogs from '@/app/Components/SharedComponents/ComponentsForBlogs'
 
 const Blogs = () => {
     return (

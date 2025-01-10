@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from "@/app/components/SharedComponents/Navbar"
-import Header2 from "@/app/components/SharedComponents/Header2"
-import FreeDelieveryComponents from '@/app/components/SharedComponents/FreeDelieveryComponents'
+import Navbar from "@/app/Components/SharedComponents/Navbar"
+import Header2 from "@/app/Components/SharedComponents/Header2"
+import FreeDelieveryComponents from '@/app/Components/SharedComponents/FreeDelieveryComponents'
 import Footer from '@/app/components/SharedComponents/Footer'
 const page = () => {
     return (
 
         <>
-            <Navbar />
+            <Navbar />/
             <Header2 heading="Chekout" text="Chekout" />
 
             <div className="flex flex-col lg:flex-row mx-10 gap-6 mt-8">

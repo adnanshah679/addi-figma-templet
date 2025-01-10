@@ -1,9 +1,9 @@
-import TopPicss from '@/app/components/SharedComponents/TopPicss'
-import Navbar from "@/app/components/SharedComponents/Navbar"
+import TopPicss from '@/app/Components/SharedComponents/TopPicss'
+import Navbar from "@/app/Components/SharedComponents/Navbar"
 import React from 'react';
 import Footer from '../components/SharedComponents/Footer';
-import Header2 from '../components/SharedComponents/Header2';
-import FreeDelieveryComponents from '../components/SharedComponents/FreeDelieveryComponents';
+import Header2 from '@/app/Components/SharedComponents/Header2';
+import FreeDelieveryComponents from '@/app/Components/SharedComponents/FreeDelieveryComponents'
 
 const Shop = () => {
     return (

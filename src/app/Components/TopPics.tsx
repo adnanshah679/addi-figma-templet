@@ -1,5 +1,5 @@
 import React from 'react'
-import TopPicss from '@/app/components/SharedComponents/TopPicss'
+import TopPicss from '@/app/Components/SharedComponents/TopPicss'
 const TopPics = () => {
     return (
 
