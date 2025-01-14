@@ -5,10 +5,12 @@ import { faSearch, faHeart, faShoppingCart } from '@fortawesome/free-solid-svg-i
 import Image from "next/image"
 import Link from "next/link";
 import { useState } from 'react';
-import ShoppingCart from '@/app/Components/Cart';
+import ShoppingCart from "../Cart"
+
 // edit block
 
-function Header() {
+const Navbar = () => {
+
   const [open, setOpen] = useState(false);
   const toggle = () => {
     setOpen(!open);
@@ -73,4 +75,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbar;

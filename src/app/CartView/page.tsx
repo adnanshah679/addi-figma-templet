@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import { RiDeleteBin6Line } from 'react-icons/ri';
 
-import Footer from "@/app/Components/SharedComponents/Footer"
-import Navbar from "@/app/Components/SharedComponents/Navbar"
-import Header2 from "@/app/Components/SharedComponents/Header2"
+import Footer from "../Components/SharedComponents/Footer"
+import Navbar from "../Components/SharedComponents/Navbar"
+import Header2 from "../Components/SharedComponents/Header2"
 
 
 function CartView() {

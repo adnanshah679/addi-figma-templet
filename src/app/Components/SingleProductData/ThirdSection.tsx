@@ -1,5 +1,5 @@
 import React from 'react'
-import TopPicss from '@/app/Components/SharedComponents/TopPicss'
+import TopPicss from '../SharedComponents/TopPicss'
 
 const ThirdSection = () => {
     return (

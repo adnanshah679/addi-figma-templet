@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import FirstSection from '@/app/Components/SingleProductData/FirstSection';
 import SecondSection from "@/app/Components/SingleProductData/SecondSection";
 import ThirdSection from '@/app/Components/SingleProductData/ThirdSection';
-import Footer from '@/app/components/SharedComponents/Footer';
+import Footer from  "../Components/SharedComponents/Footer"
 
 const SingleProduct = () => {
   return (

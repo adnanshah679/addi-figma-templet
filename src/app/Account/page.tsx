@@ -1,7 +1,7 @@
-import Navbar from "@/app/Components/SharedComponents/Navbar"
+import Navbar from "../Components/SharedComponents/Navbar"
 import React from 'react'
 import Footer from "../Components/SharedComponents/Footer"
-import Header2 from "@/app/Components/SharedComponents/Header2"
+import Header2 from "../Components/SharedComponents/Header2"
 const page = () => {
     return (
 
