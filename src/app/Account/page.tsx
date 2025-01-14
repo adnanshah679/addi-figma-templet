@@ -1,6 +1,6 @@
 import Navbar from "@/app/Components/SharedComponents/Navbar"
 import React from 'react'
-import Footer from "@/app/components/SharedComponents/Footer"
+import Footer from "@/app/Components/SharedComponents/Footer"
 import Header2 from "@/app/Components/SharedComponents/Header2"
 const page = () => {
     return (
